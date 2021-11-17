@@ -1,0 +1,15 @@
+:root {
+   --primary-color:rgba(240,222,235) ;
+   --secondary-color:rgba(249,228,235);
+   --tertiary-color:rgba(230,207,220);
+   --box-shadow: 0px opx 50px 30px rgba(201,195,197);
+   --my-font: Kaylas print;
+}
+
+h1 {
+font-family: 'Josefin Slab', serif;
+
+}
+p {
+ font-family:kaylassimpleprint;
+}
