@@ -1,16 +1,65 @@
 :root {
    --primary-color:rgba(240,222,235) ;
    --secondary-color:rgba(249,228,235);
-   --tertiary-color:rgba(230,207,220);
+   --tertiary-color:rgba(201,195,197);
    --box-shadow: 0px opx 50px 30px rgba(201,195,197);
-   --my-font: kaylassimpleprint;
 }
 
+a:hover {
+ color: white;
+}
 
 h1 {
 font-family: 'Josefin Slab', serif;
-
+font-size:96px;
 }
-p {
-font-family: 'Handlee', cursive;
+
+h2 {
+font-family: 'Josefin Slab', serif;
+font-size:42px;
+}
+
+.hero{
+    background:var(--primary-color);
+    padding: 150px 70px 100px 70px;
+    text-align: right;
+}
+
+.main-links {
+   text-decoration:none;
+   font-family: 'Codystar', cursive;
+   font-weight:bold;
+   color:white;
+   border: 1px solid white;
+   border-radius:4px;
+   padding:10px;
+   margin:5px;
+}
+
+/*.computer {
+   max-width:370px;
+   position:relative;
+   top: 15px;
+   left: -1200px;
+}
+*/
+@media(max-width:768px) {
+    .computer {
+        display:none;
+    }
+    h1,h2 {
+        text-align:center;
+    }
+    h1 {
+        font-size:42px;
+    }
+    h2 {
+        font-size:24px;
+    }
+    .main-links {
+        font-size:18px;
+        display:flex;
+        justify-content:center;
+    }
+
 }
