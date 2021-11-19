@@ -4,9 +4,9 @@ a:hover {
 
 :root {
     --primary-color:rgba(240,222,235) ;
-    --secondary-color:rgba(249,228,235);
-    --tertiary-color:rgba(201,195,197);
-    --box-shadow: 0px opx 50px 30px rgba(201,195,197);
+    --secondary-color:rgba(249,228,235,0.3);
+    --tertiary-color:#ECF0ED;
+    --box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 body {
@@ -22,33 +22,47 @@ body {
     bottom:20px;
 }
 
-.container-fluid{
+.hero{
     padding:100px 150px 100px 50px;
     text-align: right;
     background-color: var(--primary-color);
 }
 
-h1 {
-    font-family: 'Josefin Slab', serif;
+h1,h2,h3 {
+   font-family: 'Josefin Slab', serif; 
+}
+h1 {  
     font-size:96px;
 }
 
 h2 {
-    font-family: 'Josefin Slab', serif;
     font-size:42px;
     
 }
 
+p {
+    font-family: 'Handlee', cursive;
+}
 
 .main-links {
     text-decoration:none;
     font-family: 'Codystar', cursive;
-    font-weight:bold;
+    font-weight:bolder;
     color:white;
     border: 1px solid white;
     border-radius:4px;
     margin:5px;
     padding:10px; 
+}
+
+.open-weather, .open-dictionary {
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
+    
+}
+
+.open-weather:hover, .open-dictionary:hover {
+    color:var(--primary-color);
 }
 
 
@@ -81,4 +95,29 @@ h2 {
     }
 }
 
+
+.app-images {
+    border-radius:4px;
+    max-height:450px;
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(5px);
+    background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.projects {
+  
+  max-width:70%;
+  border-radius:4px;
+  box-shadow:var(--box-shadow);
+}
+.bullet-journal {
+  background-color:var(--primary-color); 
+}
+
+.weather, .future { 
+    background-color:var(--secondary-color) ;
+}
+ /* background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
+  backdrop-filter: blur(10px);  */
 
