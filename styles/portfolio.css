@@ -99,11 +99,11 @@ p {
         font-size:27px;
     }
     p {
-        font-size:18px;
+        font-size:20px;
     }
 }
 
-@media(max-width:992px) {
+@media(max-width:1360px) {
     .hero-image {
         display:none;
     }
@@ -144,8 +144,4 @@ p {
 
 .weather, .future, .about{ 
     background-color:var(--secondary-color);
-}
-
-.about-images{
-    border: 20px solid white;
 }
