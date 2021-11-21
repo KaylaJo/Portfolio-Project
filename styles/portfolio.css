@@ -2,13 +2,21 @@
     --primary-color:rgba(240,222,235) ;
     --secondary-color:rgba(249,228,235,0.3);
     --box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    --main-font:'Josefin Slab', serif;
+    --paragraph-font:'Handlee', cursive;
+    --button-font:'Codystar', cursive;
 }
 
 a:hover {
  color: white;
 }
 
-.app-images {
+.image-container {
+    display:flex;
+    justify-content:center;
+}
+
+.images {
     border-radius:4px;
     max-height:450px; 
     backdrop-filter: blur(10px);
@@ -21,12 +29,11 @@ body {
     max-width:100%;
 }
 
-.bullet-journal {
+.bullet-journal, .amazon {
   background-color:var(--primary-color); 
 }
 
-
-.computer {
+.hero-image{
     float:left;
     max-width:295px;
     margin-bottom:50px;
@@ -43,30 +50,39 @@ body {
 }
 
 h1,h2,h3 {
-   font-family: 'Josefin Slab', serif; 
+   font-family: var(--main-font); 
 }
+
 h1 {  
     font-size:96px;
+
 }
 
 h2 {
-    font-size:42px;
-    
+    font-size:42px;    
+}
+
+
+iframe {
+    border-radius:4px;
+    display:block;
+    justify-content: center;
+    padding:0px 30px;
 }
 
 .main-links {
     text-decoration:none;
-    font-family: 'Codystar', cursive;
+    font-family: var(--button-font);
     font-weight:bolder;
     color:white;
     border: 1px solid white;
     border-radius:4px;
     margin:5px;
-    padding:10px; 
+    padding:15px; 
 }
 
 p {
-    font-family: 'Handlee', cursive;
+    font-family: var(--paragraph-font);
     font-size:25px; 
 }
 
@@ -78,15 +94,15 @@ p {
         font-size:42px;
     }
     h2,h3 {
-        font-size:24px;
+        font-size:27px;
     }
     p {
-        font-size:19px;
+        font-size:18px;
     }
 }
 
 @media(max-width:992px) {
-    .computer {
+    .hero-image {
         display:none;
     }
 
@@ -97,8 +113,8 @@ p {
     h3,p, h2, h1{
         text-align:center;
     }
-     .main-links {
-        font-size:18px;
+    .main-links {
+        font-size:20px;
         display:flex;
         justify-content:center;
         margin:10px 45px;
@@ -108,7 +124,8 @@ p {
     }
     }
 
-.open-weather, .open-dictionary {
+
+.open-weather, .open-dictionary, .open-project {
     color:var(--primary-color);
     border:1px solid var(--primary-color);  
 }
@@ -117,18 +134,12 @@ p {
     color:var(--primary-color);
 }
 
-
-
-
 .projects {
   max-width:90%;
   border-radius:4px;
   box-shadow:var(--box-shadow);
 }
 
-
-.weather, .future { 
-    background-color:var(--secondary-color) ;
+.weather, .future, .about{ 
+    background-color:var(--secondary-color);
 }
-
-
