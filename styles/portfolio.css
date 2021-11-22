@@ -9,7 +9,7 @@
 }
 
 a:hover {
- color: white;
+ color: black;
 }
 
 body {
@@ -153,8 +153,9 @@ p {
 }
 
 .contact-section {
-    border-radius:4px;
-    max-height:500px; 
+    border-radius:4px; 
+    max-width:90%;
+    margin:0 auto;
     backdrop-filter: blur(10px);
     background-color:white;
     background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
@@ -176,4 +177,14 @@ p {
 .icon {
     display:block;
     margin:0 auto;
+}
+
+.footer-links {
+    text-decoration:none;
+    color:slategray;
+}
+
+footer {
+    text-align:center;
+    font-size:18px;
 }
