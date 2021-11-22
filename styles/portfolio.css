@@ -23,10 +23,9 @@ body {
 .hero-image{
     float:left;
     max-width:295px;
-    margin-bottom:50px;
     position:relative;
     left:50px;
-    bottom:20px;
+    bottom:55px;
 }
 
 .hero{
@@ -70,17 +69,18 @@ iframe {
     background-color:white;
     background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-    border:20px solid white;
+    border:20px solid white ;
 }
 
 .main-links {
     text-decoration:none;
     font-family: var(--button-font);
     font-weight:bolder;
-    color:white;
-    border: 1px solid white;
+    color:slategray;
+    border: 1px solid slategray;
     border-radius:4px;
     padding:15px; 
+    transition:all 100ms ease-in-out;
 }
 
 p {
@@ -105,7 +105,9 @@ p {
        margin-top:20px;
        margin-bottom:20px;
    }
-
+   .name {
+       display:none;
+   }
    
     
 }
@@ -133,13 +135,10 @@ p {
 
 
 .open-primary {
-    color:var(--primary-color);
-    border:1px solid var(--primary-color);  
+    color:slategray;
+    border:1px solid slategray;  
 }
 
-.open-primary:hover {
-    color:var(--primary-color);
-}
 
 .content-container {
   max-width:90%;
@@ -147,6 +146,7 @@ p {
   box-shadow:var(--box-shadow);
   margin:0 auto;
 }
+
 
 .secondary-color-section{ 
     background-color:var(--secondary-color);
@@ -156,4 +156,15 @@ p {
    display:block;
    margin:0 auto;
    text-align:center;
+}
+
+.nav-link {
+    font-family:var(--button-font);
+}
+.navbar{
+   box-shadow: var(--box-shadow);
+}
+.icon {
+    display:block;
+    margin:0 auto;
 }
