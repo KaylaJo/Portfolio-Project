@@ -152,6 +152,15 @@ p {
     background-color:var(--secondary-color);
 }
 
+.contact-section {
+    border-radius:4px;
+    max-height:400px; 
+    backdrop-filter: blur(10px);
+    background-color:white;
+    background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
 .projects-page .main-links {
    display:block;
    margin:0 auto;
