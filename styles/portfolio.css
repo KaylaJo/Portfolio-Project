@@ -12,13 +12,11 @@ a:hover {
  color: white;
 }
 
-
-
 body {
     max-width:100%;
 }
 
-.primary-color-section {
+.tertiary-color-section {
   background-color:var(--tertiary-color); 
 }
 
@@ -159,4 +157,3 @@ p {
    margin:0 auto;
    text-align:center;
 }
-
