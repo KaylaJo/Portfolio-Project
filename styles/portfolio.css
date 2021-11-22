@@ -103,9 +103,11 @@ p {
     p {
         font-size:20px;
     }
-    .content-container {
-        margin:40px;
-    }
+   .primary-color-section, .secondary-color-section {
+       margin-top:20px;
+       margin-bottom:20px;
+   }
+
    
     
 }
@@ -145,6 +147,7 @@ p {
   max-width:90%;
   border-radius:4px;
   box-shadow:var(--box-shadow);
+  margin:0 auto;
 }
 
 .secondary-color-section{ 
