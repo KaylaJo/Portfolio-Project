@@ -101,7 +101,7 @@ p {
     p {
         font-size:20px;
     }
-   .primary-color-section, .secondary-color-section {
+   .tertiary-color-section, .secondary-color-section {
        margin-top:20px;
        margin-bottom:20px;
    }
@@ -154,14 +154,14 @@ p {
 
 .contact-section {
     border-radius:4px;
-    max-height:400px; 
+    max-height:500px; 
     backdrop-filter: blur(10px);
     background-color:white;
     background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
-.projects-page .main-links {
+.projects-page .main-links, .contact-page .main-links {
    display:block;
    margin:0 auto;
    text-align:center;
