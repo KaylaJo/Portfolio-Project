@@ -55,7 +55,7 @@ h1,h2,h3 {
 }
 
 h1 {  
-    font-size:96px;
+    font-size:80px;
 
 }
 
@@ -93,7 +93,7 @@ p {
         text-align:center;
     }
     h1 {
-        font-size:42px;
+        font-size:40px;
     }
     h2,h3 {
         font-size:27px;
@@ -106,10 +106,6 @@ p {
 @media(max-width:1360px) {
     .hero-image {
         display:none;
-    }
-
-    .container-fluid {
-        padding:100px 20px;
     }
    
     h3,p, h2, h1{
@@ -144,4 +140,10 @@ p {
 
 .weather, .future, .about{ 
     background-color:var(--secondary-color);
+}
+.projects-page .main-links {
+   display:block;
+   margin: 70 auto;
+   text-align:center;
+
 }
