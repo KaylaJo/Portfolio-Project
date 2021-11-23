@@ -19,6 +19,33 @@ body {
 .tertiary-color-section {
   background-color:var(--tertiary-color); 
 }
+.content-container {
+  max-width:90%;
+  border-radius:4px;
+  box-shadow:var(--box-shadow);
+  margin:0 auto;
+}
+
+
+.secondary-color-section{ 
+    background-color:var(--secondary-color);
+}
+
+.contact-section {
+    max-width:95%;
+    border-radius:4px; 
+    margin:0 auto;
+    backdrop-filter: blur(10px);
+    background-color:white;
+    background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+
+footer {
+    text-align:center;
+    font-size:18px;
+}
 
 .hero-image{
     float:left;
@@ -108,8 +135,6 @@ p {
    .name {
        display:none;
    }
-   
-    
 }
 
 @media(max-width:1360px) {
@@ -124,7 +149,6 @@ p {
         font-size:20px;
         display:flex;
         justify-content:center;
-        margin:10px 45px;
     }
     
     .hero {
@@ -133,47 +157,25 @@ p {
 
 }
 
-
 .open-primary {
     color:slategray;
     border:1px solid slategray;  
 }
 
-
-.content-container {
-  max-width:90%;
-  border-radius:4px;
-  box-shadow:var(--box-shadow);
-  margin:0 auto;
-}
-
-
-.secondary-color-section{ 
-    background-color:var(--secondary-color);
-}
-
-.contact-section {
-    border-radius:4px; 
-    max-width:90%;
-    margin:0 auto;
-    backdrop-filter: blur(10px);
-    background-color:white;
-    background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-}
-
 .projects-page .main-links, .contact-page .main-links {
+   max-width:100%;
    display:block;
    margin:0 auto;
    text-align:center;
 }
 
-.nav-link {
+.nav-link { 
     font-family:var(--button-font);
 }
 .navbar{
    box-shadow: var(--box-shadow);
 }
+
 .icon {
     display:block;
     margin:0 auto;
