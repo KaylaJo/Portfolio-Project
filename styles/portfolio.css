@@ -41,6 +41,7 @@ iframe {
     justify-content: center;
     border:20px solid white;
     margin: 0 20px;
+    box-shadow: 0px 0px 20px 1px white inset, var(--box-shadow);
 }
 
 p {
@@ -100,7 +101,7 @@ p {
     backdrop-filter: blur(10px);
     background-color:white;
     background:linear-gradient(to right bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    box-shadow: 0px 0px 20px 1px white inset, var(--box-shadow);
     border:20px solid white ;
 }
 
