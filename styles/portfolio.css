@@ -19,6 +19,7 @@ body {
 footer {
     text-align:center;
     font-size:18px;
+    font-family:var(--paragraph-font);
 }
 
 h1 {  
@@ -114,12 +115,9 @@ p {
     transition:all 100ms ease-in-out;
 }
 
-.nav-link { 
+.navbar { 
     font-family:var(--button-font);
-}
-
-.navbar{
-   box-shadow: var(--box-shadow);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .open-primary {
