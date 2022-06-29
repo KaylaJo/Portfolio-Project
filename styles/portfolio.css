@@ -1,11 +1,11 @@
 :root {
-  --primary-color: rgba(198, 207, 202, 0.2);
-  --secondary-color: rgba(198, 207, 202, 0.3);
-  --tertiary-color: rgba(198, 207, 202, 0.1);
   --box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  --main-font: "Josefin Slab", serif;
-  --paragraph-font: "Handlee", cursive;
-  --button-font: "Codystar", cursive;
+  --main-font: "Oxanium", sans-serif;
+  --paragraph-font: "Roboto Condensed", sans-serif;
+  --link-font: "Oxanium", cursive;
+  --first-color: #e7eaf6;
+  --second-color: #a2a8d3;
+  --third-color: #113f67;
 }
 
 a:hover {
@@ -36,14 +36,14 @@ h3 {
 
 h2 {
   font-size: 42px;
+  color: #a2a8d3;
 }
 
 iframe {
   border-radius: 4px;
   display: block;
-  border: solid 15px #e7eaf6;
   justify-content: center;
-  margin: 0 20px;
+  padding: 40px;
   box-shadow: 0px 0px 20px 1px #e7eaf6 inset, var(--box-shadow);
 }
 
@@ -60,10 +60,10 @@ p {
   background-color: #e7eaf6;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  box-shadow: 0px 0px 20px 1px #a2a8d3 inset, var(--box-shadow);
 }
 .content-container {
   max-width: 90%;
@@ -85,8 +85,6 @@ p {
   margin: 0 auto;
   filter: invert(80%) sepia(3%) saturate(3425%) hue-rotate(197deg)
     brightness(85%) contrast(93%);
-  filter: invert(92%) sepia(14%) saturate(202%) hue-rotate(195deg)
-    brightness(100%) contrast(94%);
 }
 
 .image-container {
@@ -104,13 +102,12 @@ p {
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
-  box-shadow: 0px 0px 20px 1px #e7eaf6 inset, var(--box-shadow);
-  border: 15px solid #e7eaf6;
+  box-shadow: 0px 0px 20px 1px #a2a8d3 inset, var(--box-shadow);
 }
 
 .main-links {
   text-decoration: none;
-  font-family: "Rubik", sans-serif;
+  font-family: "Oxanium", cursive;
   font-weight: bolder;
   color: #a2a8d3;
   border: 1px solid #a2a8d3;
@@ -120,7 +117,8 @@ p {
 }
 
 .navbar {
-  font-family: "Rubik", sans-serif;
+  font-family: "Oxanium", cursive;
+  background: #113f67;
 }
 
 .open-primary {
@@ -151,8 +149,8 @@ p {
   p {
     font-size: 20px;
   }
-  .tertiary-color-section,
-  .secondary-color-section {
+  .section,
+  .section {
     margin-top: 20px;
     margin-bottom: 20px;
   }
